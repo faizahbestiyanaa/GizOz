@@ -10,3 +10,4 @@ Anggota 1: Faizah Bestiyana Darmawati - 20/456364/TK/50494
 
 Anggota 2: Vira Ayu Oktaviani - 20/460570/TK/51159
 
+![MicrosoftTeams-image](https://user-images.githubusercontent.com/80038450/189832098-c150e996-9214-4032-bde5-12b911ac9f4b.png)
