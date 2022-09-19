@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GizOzApp", "GizOzApp.csproj", "{17858615-F72F-4EF3-900D-0E53F343313D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17858615-F72F-4EF3-900D-0E53F343313D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17858615-F72F-4EF3-900D-0E53F343313D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17858615-F72F-4EF3-900D-0E53F343313D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17858615-F72F-4EF3-900D-0E53F343313D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0FD50FE0-4B77-4B0C-A07B-1D8F7BE2E00A}
+	EndGlobalSection
+EndGlobal
