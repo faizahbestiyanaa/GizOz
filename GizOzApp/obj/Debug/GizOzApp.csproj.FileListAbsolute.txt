@@ -1,0 +1,13 @@
+C:\Users\R Muhammad Banendra\Documents\GitHub\GizOz\GizOzApp\bin\Debug\GizOzApp.exe.config
+C:\Users\R Muhammad Banendra\Documents\GitHub\GizOz\GizOzApp\bin\Debug\GizOzApp.exe
+C:\Users\R Muhammad Banendra\Documents\GitHub\GizOz\GizOzApp\bin\Debug\GizOzApp.pdb
+C:\Users\R Muhammad Banendra\Documents\GitHub\GizOz\GizOzApp\obj\Debug\GizOzApp.csproj.AssemblyReference.cache
+C:\Users\R Muhammad Banendra\Documents\GitHub\GizOz\GizOzApp\obj\Debug\GizOzApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\R Muhammad Banendra\Documents\GitHub\GizOz\GizOzApp\obj\Debug\GizOzApp.Properties.Resources.resources
+C:\Users\R Muhammad Banendra\Documents\GitHub\GizOz\GizOzApp\obj\Debug\GizOzApp.csproj.GenerateResource.cache
+C:\Users\R Muhammad Banendra\Documents\GitHub\GizOz\GizOzApp\obj\Debug\GizOzApp.csproj.CoreCompileInputs.cache
+C:\Users\R Muhammad Banendra\Documents\GitHub\GizOz\GizOzApp\obj\Debug\GizOzApp.exe
+C:\Users\R Muhammad Banendra\Documents\GitHub\GizOz\GizOzApp\obj\Debug\GizOzApp.pdb
+C:\Users\R Muhammad Banendra\Documents\GitHub\GizOz\GizOzApp\obj\Debug\GizOzApp.Form1.resources
+C:\Users\R Muhammad Banendra\Documents\GitHub\GizOz\GizOzApp\obj\Debug\GizOzApp.formLogin.resources
+C:\Users\R Muhammad Banendra\Documents\GitHub\GizOz\GizOzApp\obj\Debug\GizOzApp.F_RegularUser.resources
