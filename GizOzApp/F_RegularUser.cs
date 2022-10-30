@@ -26,5 +26,15 @@ namespace GizOzApp
         {
 
         }
+
+        private void textBox7_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void F_RegularUser_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

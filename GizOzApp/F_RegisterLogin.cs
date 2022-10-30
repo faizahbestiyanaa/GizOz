@@ -31,5 +31,10 @@ namespace GizOzApp
         {
 
         }
+
+        private void formLogin_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

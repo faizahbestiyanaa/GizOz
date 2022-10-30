@@ -46,11 +46,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="F_Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="F_Dashboard.Designer.cs">
+      <DependentUpon>F_Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_Logout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_Logout.Designer.cs">
+      <DependentUpon>F_Logout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_Profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_Profile.Designer.cs">
+      <DependentUpon>F_Profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_Profile_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_Profile_Edit.Designer.cs">
+      <DependentUpon>F_Profile_Edit.cs</DependentUpon>
     </Compile>
     <Compile Include="F_RegisterLogin.cs">
       <SubType>Form</SubType>
@@ -69,8 +87,17 @@
     <Compile Include="Recomendation.cs" />
     <Compile Include="RegularUser.cs" />
     <Compile Include="User.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="F_Dashboard.resx">
+      <DependentUpon>F_Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_Logout.resx">
+      <DependentUpon>F_Logout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_Profile.resx">
+      <DependentUpon>F_Profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_Profile_Edit.resx">
+      <DependentUpon>F_Profile_Edit.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="F_RegisterLogin.resx">
       <DependentUpon>F_RegisterLogin.cs</DependentUpon>
@@ -80,14 +107,8 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -102,10 +123,28 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\maxresdefault.jpg" />
+    <None Include="Resources\Asupan-Gizi.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Kizi_Town.jpg" />
+    <None Include="Resources\UH18kI99jR2THNF0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12100351.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jhdhjfdhjfhjf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\654076.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1255974.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12559741.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\155731.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

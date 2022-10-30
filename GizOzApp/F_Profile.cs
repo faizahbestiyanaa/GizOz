@@ -10,12 +10,16 @@ using System.Windows.Forms;
 
 namespace GizOzApp
 {
-    public partial class Form1 : Form
+    public partial class F_Profile : Form
     {
-        public Form1()
+        public F_Profile()
         {
             InitializeComponent();
         }
 
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
