@@ -18,11 +18,10 @@ namespace GizOzApp
 
         public RegularUser(string email, string password, bool loginStatus)
         {
-            this.email = email;
-            this.password = password;
-            this.loginStatus = loginStatus;
+            this.Email = email;
+            this.Password = password;
+            this.LoginStatus = loginStatus;
         }
-
 
         public override void register()
         {

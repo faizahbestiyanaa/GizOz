@@ -42,7 +42,6 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -134,7 +133,7 @@
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(264, 82);
             this.button5.TabIndex = 7;
-            this.button5.Text = "Settings";
+            this.button5.Text = "Edit Profile";
             this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button5.UseVisualStyleBackColor = true;
@@ -186,7 +185,7 @@
             this.label5.BackColor = System.Drawing.Color.Peru;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.PeachPuff;
-            this.label5.Location = new System.Drawing.Point(65, 27);
+            this.label5.Location = new System.Drawing.Point(65, 46);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(117, 48);
             this.label5.TabIndex = 2;
@@ -204,7 +203,6 @@
             // 
             this.panel4.BackColor = System.Drawing.Color.BurlyWood;
             this.panel4.Controls.Add(this.pictureBox1);
-            this.panel4.Controls.Add(this.label4);
             this.panel4.Controls.Add(this.label3);
             this.panel4.Location = new System.Drawing.Point(264, 0);
             this.panel4.Name = "panel4";
@@ -221,17 +219,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.label4.Location = new System.Drawing.Point(802, 27);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(110, 25);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "Username";
             // 
             // label3
             // 
@@ -284,7 +271,6 @@
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button3;
     }

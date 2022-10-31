@@ -63,7 +63,6 @@ namespace GizOzApp
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
             this.button8 = new System.Windows.Forms.Button();
@@ -447,7 +446,6 @@ namespace GizOzApp
             // 
             this.panel5.BackColor = System.Drawing.Color.BurlyWood;
             this.panel5.Controls.Add(this.pictureBox4);
-            this.panel5.Controls.Add(this.label18);
             this.panel5.Controls.Add(this.label19);
             this.panel5.Location = new System.Drawing.Point(263, 0);
             this.panel5.Name = "panel5";
@@ -464,17 +462,6 @@ namespace GizOzApp
             this.pictureBox4.TabIndex = 2;
             this.pictureBox4.TabStop = false;
             // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.label18.Location = new System.Drawing.Point(802, 27);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(110, 25);
-            this.label18.TabIndex = 1;
-            this.label18.Text = "Username";
-            // 
             // label19
             // 
             this.label19.AutoSize = true;
@@ -482,9 +469,9 @@ namespace GizOzApp
             this.label19.ForeColor = System.Drawing.Color.SaddleBrown;
             this.label19.Location = new System.Drawing.Point(67, 27);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(68, 25);
+            this.label19.Size = new System.Drawing.Size(100, 25);
             this.label19.TabIndex = 0;
-            this.label19.Text = "Home";
+            this.label19.Text = "Edit Data";
             // 
             // panel6
             // 
@@ -503,17 +490,18 @@ namespace GizOzApp
             // button8
             // 
             this.button8.AllowDrop = true;
-            this.button8.BackColor = System.Drawing.Color.Linen;
+            this.button8.BackColor = System.Drawing.Color.BurlyWood;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button8.ForeColor = System.Drawing.Color.SaddleBrown;
             this.button8.Image = ((System.Drawing.Image)(resources.GetObject("button8.Image")));
-            this.button8.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button8.Location = new System.Drawing.Point(0, 211);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(264, 82);
             this.button8.TabIndex = 9;
             this.button8.Text = "Profile";
-            this.button8.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.button8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button8.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button8.UseVisualStyleBackColor = false;
             this.button8.Visible = false;
             // 
@@ -534,18 +522,18 @@ namespace GizOzApp
             // 
             // button10
             // 
+            this.button10.BackColor = System.Drawing.Color.Linen;
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button10.ForeColor = System.Drawing.Color.SaddleBrown;
             this.button10.Image = ((System.Drawing.Image)(resources.GetObject("button10.Image")));
-            this.button10.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button10.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button10.Location = new System.Drawing.Point(0, 369);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(264, 82);
             this.button10.TabIndex = 7;
-            this.button10.Text = "Settings";
-            this.button10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button10.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button10.UseVisualStyleBackColor = true;
+            this.button10.Text = "Edit Profile";
+            this.button10.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.button10.UseVisualStyleBackColor = false;
             // 
             // button11
             // 
@@ -774,7 +762,6 @@ namespace GizOzApp
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Button button8;
