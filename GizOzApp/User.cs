@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GizOzApp
 {
-    public abstract class User
+    class User
     {
         private string _email;
         private string _username;
@@ -37,17 +37,9 @@ namespace GizOzApp
             set { _loginStatus = value; }
         }
 
-        public User() { }
-
-        public User(string userName, string password)
+        public bool Login(string Username, string Password)
         {
-            Username = userName;
-            Password = password;
-        }
-        public abstract void register();
-        public bool login()
-        {
-            if(Username == "GizOzGroup" & Password == "GizOzpastibisa")
+            if(Username == "GizOzGroup" & Password == "pastibisa")
             {
                 return true;
             }

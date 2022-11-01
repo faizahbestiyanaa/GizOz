@@ -29,8 +29,10 @@ namespace GizOzApp.Resources
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            User user = new User(tbUsername.Text, tbPassword.Text);
-            if(user.login())
+            User user = new User();
+            user.Username = tbUsername.Text;
+            user.Password = tbPassword.Text;
+            if (user.Login(user.Username, user.Password))
             {
                 MessageBox.Show("Login success!");
             }

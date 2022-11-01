@@ -108,7 +108,6 @@
             this.label4.Size = new System.Drawing.Size(119, 20);
             this.label4.TabIndex = 11;
             this.label4.Text = "Height (meters)";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label5
             // 
@@ -159,7 +158,6 @@
             this.label9.Size = new System.Drawing.Size(90, 20);
             this.label9.TabIndex = 17;
             this.label9.Text = "Weight (kg)";
-            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // checkBox1
             // 
@@ -206,6 +204,7 @@
             this.label10.Size = new System.Drawing.Size(112, 20);
             this.label10.TabIndex = 22;
             this.label10.Text = "Back to Login";
+            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // textBox5
             // 
@@ -242,7 +241,6 @@
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(115, 26);
             this.textBox7.TabIndex = 28;
-            this.textBox7.TextChanged += new System.EventHandler(this.textBox7_TextChanged);
             // 
             // textBox2
             // 
@@ -354,7 +352,6 @@
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "F_RegularUser";
             this.Text = "Register";
-            this.Load += new System.EventHandler(this.F_RegularUser_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

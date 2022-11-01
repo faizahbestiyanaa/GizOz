@@ -1,6 +1,6 @@
 ﻿namespace GizOzApp.Properties
 {
-    internal class Resources
+    internal class Resourcess
     {
         public static object AsupanGizi { get; internal set; }
     }

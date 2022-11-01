@@ -23,11 +23,11 @@ namespace GizOzApp
             this.LoginStatus = loginStatus;
         }
 
-        public override void register()
+        public void register()
         {
 
         }
-        public override void login()
+        public void loginn()
         {
 
         }

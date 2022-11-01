@@ -17,24 +17,11 @@ namespace GizOzApp
             InitializeComponent();
         }
 
-        private void label4_Click(object sender, EventArgs e)
+        private void label10_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void label9_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox7_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void F_RegularUser_Load(object sender, EventArgs e)
-        {
-
+            F_Login log = new F_Login();
+            log.Show();
+            this.Hide();
         }
     }
 }

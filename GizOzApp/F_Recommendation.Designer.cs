@@ -31,21 +31,25 @@ namespace GizOzApp
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(F_Recommendation));
             this.panel4 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.bt_dashboard = new System.Windows.Forms.Button();
+            this.bt_profile = new System.Windows.Forms.Button();
+            this.bt_logout = new System.Windows.Forms.Button();
+            this.bt_editprofile = new System.Windows.Forms.Button();
+            this.bt_recommendation = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // panel4
@@ -57,16 +61,6 @@ namespace GizOzApp
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(936, 80);
             this.panel4.TabIndex = 7;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(13, 14);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(49, 50);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
             // 
             // label3
             // 
@@ -82,124 +76,143 @@ namespace GizOzApp
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.BurlyWood;
-            this.panel1.Controls.Add(this.button3);
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.button5);
-            this.panel1.Controls.Add(this.button4);
-            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.bt_dashboard);
+            this.panel1.Controls.Add(this.bt_profile);
+            this.panel1.Controls.Add(this.bt_logout);
+            this.panel1.Controls.Add(this.bt_editprofile);
+            this.panel1.Controls.Add(this.bt_recommendation);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Location = new System.Drawing.Point(1, 1);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(264, 691);
             this.panel1.TabIndex = 6;
             // 
-            // button3
-            // 
-            this.button3.AllowDrop = true;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button3.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(0, 211);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(264, 82);
-            this.button3.TabIndex = 9;
-            this.button3.Text = "Profile";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Visible = false;
-            // 
-            // button1
-            // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(0, 609);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(264, 82);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "Logout";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button5.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
-            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.Location = new System.Drawing.Point(0, 369);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(264, 82);
-            this.button5.TabIndex = 7;
-            this.button5.Text = "Edit Profile";
-            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.Linen;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button4.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button4.Location = new System.Drawing.Point(0, 290);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(264, 82);
-            this.button4.TabIndex = 6;
-            this.button4.Text = "Recommendation";
-            this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.button4.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            this.button2.AllowDrop = true;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(0, 132);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(264, 82);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "Dashboard";
-            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Visible = false;
-            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Peru;
-            this.panel2.Controls.Add(this.label5);
+            this.panel2.Controls.Add(this.pictureBox3);
             this.panel2.Controls.Add(this.panel3);
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(264, 135);
             this.panel2.TabIndex = 3;
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Peru;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.PeachPuff;
-            this.label5.Location = new System.Drawing.Point(65, 46);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(117, 48);
-            this.label5.TabIndex = 2;
-            this.label5.Text = "GizOz";
-            // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.SandyBrown;
+            this.panel3.Controls.Add(this.pictureBox2);
             this.panel3.Location = new System.Drawing.Point(263, 3);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(936, 100);
             this.panel3.TabIndex = 3;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(13, 14);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(49, 50);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
+            // 
+            // bt_dashboard
+            // 
+            this.bt_dashboard.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.bt_dashboard.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.bt_dashboard.Image = global::GizOzApp.Properties.Resources._12100351;
+            this.bt_dashboard.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bt_dashboard.Location = new System.Drawing.Point(0, 128);
+            this.bt_dashboard.Name = "bt_dashboard";
+            this.bt_dashboard.Size = new System.Drawing.Size(264, 82);
+            this.bt_dashboard.TabIndex = 12;
+            this.bt_dashboard.Text = "Dashboard";
+            this.bt_dashboard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bt_dashboard.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.bt_dashboard.UseVisualStyleBackColor = true;
+            this.bt_dashboard.Click += new System.EventHandler(this.bt_dashboard_Click);
+            // 
+            // bt_profile
+            // 
+            this.bt_profile.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.bt_profile.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.bt_profile.Image = global::GizOzApp.Properties.Resources.jhdhjfdhjfhjf;
+            this.bt_profile.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bt_profile.Location = new System.Drawing.Point(0, 209);
+            this.bt_profile.Name = "bt_profile";
+            this.bt_profile.Size = new System.Drawing.Size(264, 82);
+            this.bt_profile.TabIndex = 11;
+            this.bt_profile.Text = "Profile";
+            this.bt_profile.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bt_profile.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.bt_profile.UseVisualStyleBackColor = true;
+            this.bt_profile.Click += new System.EventHandler(this.bt_profile_Click);
+            // 
+            // bt_logout
+            // 
+            this.bt_logout.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.bt_logout.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.bt_logout.Image = ((System.Drawing.Image)(resources.GetObject("bt_logout.Image")));
+            this.bt_logout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bt_logout.Location = new System.Drawing.Point(0, 609);
+            this.bt_logout.Name = "bt_logout";
+            this.bt_logout.Size = new System.Drawing.Size(264, 82);
+            this.bt_logout.TabIndex = 8;
+            this.bt_logout.Text = "Logout";
+            this.bt_logout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bt_logout.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.bt_logout.UseVisualStyleBackColor = true;
+            this.bt_logout.Click += new System.EventHandler(this.bt_logout_Click);
+            // 
+            // bt_editprofile
+            // 
+            this.bt_editprofile.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.bt_editprofile.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.bt_editprofile.Image = ((System.Drawing.Image)(resources.GetObject("bt_editprofile.Image")));
+            this.bt_editprofile.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bt_editprofile.Location = new System.Drawing.Point(0, 369);
+            this.bt_editprofile.Name = "bt_editprofile";
+            this.bt_editprofile.Size = new System.Drawing.Size(264, 82);
+            this.bt_editprofile.TabIndex = 7;
+            this.bt_editprofile.Text = "Edit Profile";
+            this.bt_editprofile.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bt_editprofile.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.bt_editprofile.UseVisualStyleBackColor = true;
+            // 
+            // bt_recommendation
+            // 
+            this.bt_recommendation.BackColor = System.Drawing.Color.Linen;
+            this.bt_recommendation.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.bt_recommendation.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.bt_recommendation.Image = ((System.Drawing.Image)(resources.GetObject("bt_recommendation.Image")));
+            this.bt_recommendation.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.bt_recommendation.Location = new System.Drawing.Point(0, 290);
+            this.bt_recommendation.Name = "bt_recommendation";
+            this.bt_recommendation.Size = new System.Drawing.Size(264, 82);
+            this.bt_recommendation.TabIndex = 6;
+            this.bt_recommendation.Text = "Recommendation";
+            this.bt_recommendation.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.bt_recommendation.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::GizOzApp.Properties.Resources.logo1;
+            this.pictureBox2.Location = new System.Drawing.Point(373, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(190, 101);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 5;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::GizOzApp.Properties.Resources.logo1;
+            this.pictureBox3.Location = new System.Drawing.Point(37, 17);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(190, 101);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 5;
+            this.pictureBox3.TabStop = false;
             // 
             // F_Recommendation
             // 
@@ -212,10 +225,12 @@ namespace GizOzApp
             this.Text = "F_Recommendation";
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -226,13 +241,14 @@ namespace GizOzApp
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button bt_logout;
+        private System.Windows.Forms.Button bt_editprofile;
+        private System.Windows.Forms.Button bt_recommendation;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Button bt_dashboard;
+        private System.Windows.Forms.Button bt_profile;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

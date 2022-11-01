@@ -11,3 +11,20 @@ C:\Users\R Muhammad Banendra\Documents\GitHub\GizOz\GizOzApp\obj\Debug\GizOzApp.
 C:\Users\R Muhammad Banendra\Documents\GitHub\GizOz\GizOzApp\obj\Debug\GizOzApp.Form1.resources
 C:\Users\R Muhammad Banendra\Documents\GitHub\GizOz\GizOzApp\obj\Debug\GizOzApp.formLogin.resources
 C:\Users\R Muhammad Banendra\Documents\GitHub\GizOz\GizOzApp\obj\Debug\GizOzApp.F_RegularUser.resources
+C:\Users\Acer\source\repos\GizOz\GizOzApp\obj\Debug\GizOzApp.csproj.AssemblyReference.cache
+C:\Users\Acer\source\repos\GizOz\GizOzApp\obj\Debug\GizOzApp.F_Dashboard.resources
+C:\Users\Acer\source\repos\GizOz\GizOzApp\obj\Debug\GizOzApp.F_Logout.resources
+C:\Users\Acer\source\repos\GizOz\GizOzApp\obj\Debug\GizOzApp.F_Profile.resources
+C:\Users\Acer\source\repos\GizOz\GizOzApp\obj\Debug\GizOzApp.F_Profile_Edit.resources
+C:\Users\Acer\source\repos\GizOz\GizOzApp\obj\Debug\GizOzApp.F_Recommendation.resources
+C:\Users\Acer\source\repos\GizOz\GizOzApp\obj\Debug\GizOzApp.F_RegularUser.resources
+C:\Users\Acer\source\repos\GizOz\GizOzApp\obj\Debug\GizOzApp.Resources.F_RegisterLogin.resources
+C:\Users\Acer\source\repos\GizOz\GizOzApp\obj\Debug\GizOzApp.csproj.GenerateResource.cache
+C:\Users\Acer\source\repos\GizOz\GizOzApp\obj\Debug\GizOzApp.exe
+C:\Users\Acer\source\repos\GizOz\GizOzApp\obj\Debug\GizOzApp.pdb
+C:\Users\Acer\source\repos\GizOz\GizOzApp\obj\Debug\GizOzApp.Properties.Resources.resources
+C:\Users\Acer\source\repos\GizOz\GizOzApp\obj\Debug\GizOzApp.csproj.CoreCompileInputs.cache
+C:\Users\Acer\source\repos\GizOz\GizOzApp\bin\Debug\GizOzApp.exe.config
+C:\Users\Acer\source\repos\GizOz\GizOzApp\bin\Debug\GizOzApp.exe
+C:\Users\Acer\source\repos\GizOz\GizOzApp\bin\Debug\GizOzApp.pdb
+C:\Users\Acer\source\repos\GizOz\GizOzApp\obj\Debug\GizOzApp.F_Login.resources
