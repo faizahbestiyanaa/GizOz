@@ -185,6 +185,7 @@ namespace GizOzApp
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "F_Login";
             this.Text = "F_Login";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

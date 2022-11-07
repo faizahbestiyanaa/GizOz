@@ -130,6 +130,7 @@ namespace GizOzApp
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.panel4);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "F_Logout";
             this.Text = "F_Logout";
             this.panel4.ResumeLayout(false);
