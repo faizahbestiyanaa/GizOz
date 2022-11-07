@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.tbUsername = new System.Windows.Forms.TextBox();
+            this.btnRegister = new System.Windows.Forms.Button();
+            this.btnClear = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -41,53 +41,54 @@
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.lblBackToLogin = new System.Windows.Forms.Label();
+            this.tbConfirmPassword = new System.Windows.Forms.TextBox();
+            this.tbPassword = new System.Windows.Forms.TextBox();
+            this.tbHeight = new System.Windows.Forms.TextBox();
+            this.tbWeight = new System.Windows.Forms.TextBox();
+            this.tbName = new System.Windows.Forms.TextBox();
+            this.tbAge = new System.Windows.Forms.TextBox();
+            this.tbProfession = new System.Windows.Forms.TextBox();
+            this.tbAllergy = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.tbGender = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // textBox1
+            // tbUsername
             // 
-            this.textBox1.BackColor = System.Drawing.Color.Snow;
-            this.textBox1.Location = new System.Drawing.Point(56, 169);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(309, 26);
-            this.textBox1.TabIndex = 0;
+            this.tbUsername.BackColor = System.Drawing.Color.Snow;
+            this.tbUsername.Location = new System.Drawing.Point(56, 169);
+            this.tbUsername.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tbUsername.Name = "tbUsername";
+            this.tbUsername.Size = new System.Drawing.Size(309, 26);
+            this.tbUsername.TabIndex = 0;
+            this.tbUsername.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // button1
+            // btnRegister
             // 
-            this.button1.BackColor = System.Drawing.Color.BurlyWood;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(56, 448);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(1048, 66);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "REGISTER";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnRegister.BackColor = System.Drawing.Color.BurlyWood;
+            this.btnRegister.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRegister.Location = new System.Drawing.Point(56, 448);
+            this.btnRegister.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnRegister.Name = "btnRegister";
+            this.btnRegister.Size = new System.Drawing.Size(1048, 66);
+            this.btnRegister.TabIndex = 6;
+            this.btnRegister.Text = "REGISTER";
+            this.btnRegister.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // btnClear
             // 
-            this.button2.BackColor = System.Drawing.Color.White;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(56, 523);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(1048, 66);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "CLEAR";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnClear.BackColor = System.Drawing.Color.White;
+            this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClear.Location = new System.Drawing.Point(56, 523);
+            this.btnClear.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(1048, 66);
+            this.btnClear.TabIndex = 7;
+            this.btnClear.Text = "CLEAR";
+            this.btnClear.UseVisualStyleBackColor = false;
             // 
             // label1
             // 
@@ -193,90 +194,90 @@
             this.label3.TabIndex = 21;
             this.label3.Text = "Already have an account?";
             // 
-            // label10
+            // lblBackToLogin
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.label10.Location = new System.Drawing.Point(522, 645);
-            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(112, 20);
-            this.label10.TabIndex = 22;
-            this.label10.Text = "Back to Login";
-            this.label10.Click += new System.EventHandler(this.label10_Click);
+            this.lblBackToLogin.AutoSize = true;
+            this.lblBackToLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBackToLogin.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.lblBackToLogin.Location = new System.Drawing.Point(522, 645);
+            this.lblBackToLogin.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblBackToLogin.Name = "lblBackToLogin";
+            this.lblBackToLogin.Size = new System.Drawing.Size(112, 20);
+            this.lblBackToLogin.TabIndex = 22;
+            this.lblBackToLogin.Text = "Back to Login";
+            this.lblBackToLogin.Click += new System.EventHandler(this.label10_Click);
             // 
-            // textBox5
+            // tbConfirmPassword
             // 
-            this.textBox5.BackColor = System.Drawing.Color.Snow;
-            this.textBox5.Location = new System.Drawing.Point(56, 335);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(309, 26);
-            this.textBox5.TabIndex = 23;
+            this.tbConfirmPassword.BackColor = System.Drawing.Color.Snow;
+            this.tbConfirmPassword.Location = new System.Drawing.Point(56, 335);
+            this.tbConfirmPassword.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tbConfirmPassword.Name = "tbConfirmPassword";
+            this.tbConfirmPassword.Size = new System.Drawing.Size(309, 26);
+            this.tbConfirmPassword.TabIndex = 23;
             // 
-            // textBox6
+            // tbPassword
             // 
-            this.textBox6.BackColor = System.Drawing.Color.Snow;
-            this.textBox6.Location = new System.Drawing.Point(58, 249);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(307, 26);
-            this.textBox6.TabIndex = 24;
+            this.tbPassword.BackColor = System.Drawing.Color.Snow;
+            this.tbPassword.Location = new System.Drawing.Point(58, 249);
+            this.tbPassword.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tbPassword.Name = "tbPassword";
+            this.tbPassword.Size = new System.Drawing.Size(307, 26);
+            this.tbPassword.TabIndex = 24;
             // 
-            // textBox4
+            // tbHeight
             // 
-            this.textBox4.BackColor = System.Drawing.Color.Snow;
-            this.textBox4.Location = new System.Drawing.Point(795, 335);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(117, 26);
-            this.textBox4.TabIndex = 27;
+            this.tbHeight.BackColor = System.Drawing.Color.Snow;
+            this.tbHeight.Location = new System.Drawing.Point(795, 335);
+            this.tbHeight.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tbHeight.Name = "tbHeight";
+            this.tbHeight.Size = new System.Drawing.Size(117, 26);
+            this.tbHeight.TabIndex = 27;
             // 
-            // textBox7
+            // tbWeight
             // 
-            this.textBox7.BackColor = System.Drawing.Color.Snow;
-            this.textBox7.Location = new System.Drawing.Point(989, 335);
-            this.textBox7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(115, 26);
-            this.textBox7.TabIndex = 28;
+            this.tbWeight.BackColor = System.Drawing.Color.Snow;
+            this.tbWeight.Location = new System.Drawing.Point(989, 335);
+            this.tbWeight.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tbWeight.Name = "tbWeight";
+            this.tbWeight.Size = new System.Drawing.Size(115, 26);
+            this.tbWeight.TabIndex = 28;
             // 
-            // textBox2
+            // tbName
             // 
-            this.textBox2.BackColor = System.Drawing.Color.Snow;
-            this.textBox2.Location = new System.Drawing.Point(424, 169);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(309, 26);
-            this.textBox2.TabIndex = 29;
+            this.tbName.BackColor = System.Drawing.Color.Snow;
+            this.tbName.Location = new System.Drawing.Point(424, 169);
+            this.tbName.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tbName.Name = "tbName";
+            this.tbName.Size = new System.Drawing.Size(309, 26);
+            this.tbName.TabIndex = 29;
             // 
-            // textBox3
+            // tbAge
             // 
-            this.textBox3.BackColor = System.Drawing.Color.Snow;
-            this.textBox3.Location = new System.Drawing.Point(424, 249);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(307, 26);
-            this.textBox3.TabIndex = 30;
+            this.tbAge.BackColor = System.Drawing.Color.Snow;
+            this.tbAge.Location = new System.Drawing.Point(424, 249);
+            this.tbAge.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tbAge.Name = "tbAge";
+            this.tbAge.Size = new System.Drawing.Size(307, 26);
+            this.tbAge.TabIndex = 30;
             // 
-            // textBox8
+            // tbProfession
             // 
-            this.textBox8.BackColor = System.Drawing.Color.Snow;
-            this.textBox8.Location = new System.Drawing.Point(797, 169);
-            this.textBox8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(307, 26);
-            this.textBox8.TabIndex = 36;
+            this.tbProfession.BackColor = System.Drawing.Color.Snow;
+            this.tbProfession.Location = new System.Drawing.Point(797, 169);
+            this.tbProfession.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tbProfession.Name = "tbProfession";
+            this.tbProfession.Size = new System.Drawing.Size(307, 26);
+            this.tbProfession.TabIndex = 36;
             // 
-            // textBox9
+            // tbAllergy
             // 
-            this.textBox9.BackColor = System.Drawing.Color.Snow;
-            this.textBox9.Location = new System.Drawing.Point(795, 255);
-            this.textBox9.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(309, 26);
-            this.textBox9.TabIndex = 35;
+            this.tbAllergy.BackColor = System.Drawing.Color.Snow;
+            this.tbAllergy.Location = new System.Drawing.Point(795, 255);
+            this.tbAllergy.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tbAllergy.Name = "tbAllergy";
+            this.tbAllergy.Size = new System.Drawing.Size(309, 26);
+            this.tbAllergy.TabIndex = 35;
             // 
             // label11
             // 
@@ -308,14 +309,14 @@
             this.label13.TabIndex = 32;
             this.label13.Text = "Gender";
             // 
-            // textBox10
+            // tbGender
             // 
-            this.textBox10.BackColor = System.Drawing.Color.Snow;
-            this.textBox10.Location = new System.Drawing.Point(424, 335);
-            this.textBox10.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(309, 26);
-            this.textBox10.TabIndex = 31;
+            this.tbGender.BackColor = System.Drawing.Color.Snow;
+            this.tbGender.Location = new System.Drawing.Point(424, 335);
+            this.tbGender.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tbGender.Name = "tbGender";
+            this.tbGender.Size = new System.Drawing.Size(309, 26);
+            this.tbGender.TabIndex = 31;
             // 
             // F_RegularUser
             // 
@@ -323,19 +324,19 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SeaShell;
             this.ClientSize = new System.Drawing.Size(1200, 692);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox9);
+            this.Controls.Add(this.tbProfession);
+            this.Controls.Add(this.tbAllergy);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.label10);
+            this.Controls.Add(this.tbGender);
+            this.Controls.Add(this.tbAge);
+            this.Controls.Add(this.tbName);
+            this.Controls.Add(this.tbWeight);
+            this.Controls.Add(this.tbHeight);
+            this.Controls.Add(this.tbPassword);
+            this.Controls.Add(this.tbConfirmPassword);
+            this.Controls.Add(this.lblBackToLogin);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.checkBox1);
@@ -346,9 +347,9 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.btnClear);
+            this.Controls.Add(this.btnRegister);
+            this.Controls.Add(this.tbUsername);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "F_RegularUser";
@@ -360,9 +361,9 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox tbUsername;
+        private System.Windows.Forms.Button btnRegister;
+        private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
@@ -373,18 +374,18 @@
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.Label lblBackToLogin;
+        private System.Windows.Forms.TextBox tbConfirmPassword;
+        private System.Windows.Forms.TextBox tbPassword;
+        private System.Windows.Forms.TextBox tbHeight;
+        private System.Windows.Forms.TextBox tbWeight;
+        private System.Windows.Forms.TextBox tbName;
+        private System.Windows.Forms.TextBox tbAge;
+        private System.Windows.Forms.TextBox tbProfession;
+        private System.Windows.Forms.TextBox tbAllergy;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox tbGender;
     }
 }

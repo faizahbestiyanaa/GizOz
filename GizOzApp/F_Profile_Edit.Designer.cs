@@ -30,7 +30,7 @@ namespace GizOzApp
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(F_Profile_Edit));
-            this.button6 = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -51,7 +51,7 @@ namespace GizOzApp
             this.panel2 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.button7 = new System.Windows.Forms.Button();
+            this.btnSubmit = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
@@ -78,7 +78,7 @@ namespace GizOzApp
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
-            this.button13 = new System.Windows.Forms.Button();
+            this.btnChangePicture = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel4.SuspendLayout();
@@ -94,17 +94,17 @@ namespace GizOzApp
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
-            // button6
+            // btnCancel
             // 
-            this.button6.BackColor = System.Drawing.Color.Linen;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button6.ForeColor = System.Drawing.Color.Peru;
-            this.button6.Location = new System.Drawing.Point(826, 568);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(208, 49);
-            this.button6.TabIndex = 28;
-            this.button6.Text = "CANCEL";
-            this.button6.UseVisualStyleBackColor = false;
+            this.btnCancel.BackColor = System.Drawing.Color.Linen;
+            this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnCancel.ForeColor = System.Drawing.Color.Peru;
+            this.btnCancel.Location = new System.Drawing.Point(826, 568);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(208, 49);
+            this.btnCancel.TabIndex = 28;
+            this.btnCancel.Text = "CANCEL";
+            this.btnCancel.UseVisualStyleBackColor = false;
             // 
             // label10
             // 
@@ -341,17 +341,17 @@ namespace GizOzApp
             this.panel3.Size = new System.Drawing.Size(936, 100);
             this.panel3.TabIndex = 3;
             // 
-            // button7
+            // btnSubmit
             // 
-            this.button7.BackColor = System.Drawing.Color.Peru;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button7.ForeColor = System.Drawing.Color.PeachPuff;
-            this.button7.Location = new System.Drawing.Point(593, 568);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(208, 49);
-            this.button7.TabIndex = 39;
-            this.button7.Text = "SUBMIT";
-            this.button7.UseVisualStyleBackColor = false;
+            this.btnSubmit.BackColor = System.Drawing.Color.Peru;
+            this.btnSubmit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnSubmit.ForeColor = System.Drawing.Color.PeachPuff;
+            this.btnSubmit.Location = new System.Drawing.Point(593, 568);
+            this.btnSubmit.Name = "btnSubmit";
+            this.btnSubmit.Size = new System.Drawing.Size(208, 49);
+            this.btnSubmit.TabIndex = 39;
+            this.btnSubmit.Text = "SUBMIT";
+            this.btnSubmit.UseVisualStyleBackColor = false;
             // 
             // label11
             // 
@@ -638,17 +638,17 @@ namespace GizOzApp
             this.textBox7.Size = new System.Drawing.Size(284, 26);
             this.textBox7.TabIndex = 46;
             // 
-            // button13
+            // btnChangePicture
             // 
-            this.button13.BackColor = System.Drawing.Color.Peru;
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button13.ForeColor = System.Drawing.Color.PeachPuff;
-            this.button13.Location = new System.Drawing.Point(319, 386);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(208, 49);
-            this.button13.TabIndex = 47;
-            this.button13.Text = "CHANGE PICTURE";
-            this.button13.UseVisualStyleBackColor = false;
+            this.btnChangePicture.BackColor = System.Drawing.Color.Peru;
+            this.btnChangePicture.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnChangePicture.ForeColor = System.Drawing.Color.PeachPuff;
+            this.btnChangePicture.Location = new System.Drawing.Point(319, 386);
+            this.btnChangePicture.Name = "btnChangePicture";
+            this.btnChangePicture.Size = new System.Drawing.Size(208, 49);
+            this.btnChangePicture.TabIndex = 47;
+            this.btnChangePicture.Text = "CHANGE PICTURE";
+            this.btnChangePicture.UseVisualStyleBackColor = false;
             // 
             // pictureBox3
             // 
@@ -675,7 +675,7 @@ namespace GizOzApp
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1200, 692);
-            this.Controls.Add(this.button13);
+            this.Controls.Add(this.btnChangePicture);
             this.Controls.Add(this.textBox7);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.textBox5);
@@ -683,7 +683,7 @@ namespace GizOzApp
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.button7);
+            this.Controls.Add(this.btnSubmit);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label13);
@@ -694,7 +694,7 @@ namespace GizOzApp
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel6);
-            this.Controls.Add(this.button6);
+            this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label2);
@@ -729,7 +729,7 @@ namespace GizOzApp
 
         #endregion
 
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label2;
@@ -751,7 +751,7 @@ namespace GizOzApp
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button btnSubmit;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
@@ -776,7 +776,7 @@ namespace GizOzApp
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button btnChangePicture;
         private System.Windows.Forms.Button bt_dashboard;
         private System.Windows.Forms.Button bt_profile;
         private System.Windows.Forms.PictureBox pictureBox5;

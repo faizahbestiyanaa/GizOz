@@ -32,7 +32,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
+            this.bt_Dashboard = new System.Windows.Forms.Button();
             this.bt_profile = new System.Windows.Forms.Button();
             this.bt_logout = new System.Windows.Forms.Button();
             this.bt_editprofile = new System.Windows.Forms.Button();
@@ -80,7 +80,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.BurlyWood;
-            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.bt_Dashboard);
             this.panel1.Controls.Add(this.bt_profile);
             this.panel1.Controls.Add(this.bt_logout);
             this.panel1.Controls.Add(this.bt_editprofile);
@@ -92,20 +92,20 @@
             this.panel1.TabIndex = 2;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // button2
+            // bt_Dashboard
             // 
-            this.button2.BackColor = System.Drawing.Color.Linen;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.button2.Image = global::GizOzApp.Properties.Resources._12100351;
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button2.Location = new System.Drawing.Point(0, 134);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(264, 82);
-            this.button2.TabIndex = 10;
-            this.button2.Text = "Dashboard";
-            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.button2.UseVisualStyleBackColor = false;
+            this.bt_Dashboard.BackColor = System.Drawing.Color.Linen;
+            this.bt_Dashboard.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.bt_Dashboard.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.bt_Dashboard.Image = global::GizOzApp.Properties.Resources._12100351;
+            this.bt_Dashboard.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.bt_Dashboard.Location = new System.Drawing.Point(0, 134);
+            this.bt_Dashboard.Name = "bt_Dashboard";
+            this.bt_Dashboard.Size = new System.Drawing.Size(264, 82);
+            this.bt_Dashboard.TabIndex = 10;
+            this.bt_Dashboard.Text = "Dashboard";
+            this.bt_Dashboard.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.bt_Dashboard.UseVisualStyleBackColor = false;
             // 
             // bt_profile
             // 
@@ -272,7 +272,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button bt_profile;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button bt_Dashboard;
         private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

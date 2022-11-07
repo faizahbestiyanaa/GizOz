@@ -49,7 +49,7 @@ namespace GizOzApp
             this.label2 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.button6 = new System.Windows.Forms.Button();
+            this.btnEdit = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -282,18 +282,18 @@ namespace GizOzApp
             this.label10.TabIndex = 16;
             this.label10.Text = "Gender      :";
             // 
-            // button6
+            // btnEdit
             // 
-            this.button6.BackColor = System.Drawing.Color.Peru;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button6.ForeColor = System.Drawing.Color.PeachPuff;
-            this.button6.Location = new System.Drawing.Point(767, 555);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(187, 49);
-            this.button6.TabIndex = 17;
-            this.button6.Text = "EDIT";
-            this.button6.UseVisualStyleBackColor = false;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.btnEdit.BackColor = System.Drawing.Color.Peru;
+            this.btnEdit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnEdit.ForeColor = System.Drawing.Color.PeachPuff;
+            this.btnEdit.Location = new System.Drawing.Point(767, 555);
+            this.btnEdit.Name = "btnEdit";
+            this.btnEdit.Size = new System.Drawing.Size(187, 49);
+            this.btnEdit.TabIndex = 17;
+            this.btnEdit.Text = "EDIT";
+            this.btnEdit.UseVisualStyleBackColor = false;
+            this.btnEdit.Click += new System.EventHandler(this.button6_Click);
             // 
             // label5
             // 
@@ -331,7 +331,7 @@ namespace GizOzApp
             this.ClientSize = new System.Drawing.Size(1200, 692);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.button6);
+            this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label2);
@@ -376,7 +376,7 @@ namespace GizOzApp
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button btnEdit;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button bt_dashboard;
