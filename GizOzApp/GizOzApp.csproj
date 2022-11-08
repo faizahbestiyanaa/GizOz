@@ -94,6 +94,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Calories.cs" />
     <Compile Include="connection.cs" />
     <Compile Include="F_Dashboard.cs">
       <SubType>Form</SubType>

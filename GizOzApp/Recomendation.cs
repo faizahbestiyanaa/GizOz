@@ -8,11 +8,7 @@ namespace GizOzApp
 {
     public abstract class Recommendation
     {
-        public int calories { get; set; }
-        public void showRecommendation(int calories)
-        {
-            this.calories = calories;
-        }
-        public void calcCalories() { }
+        public abstract void showRecommendation();
+        public abstract void calcCalories();
     }
 }
