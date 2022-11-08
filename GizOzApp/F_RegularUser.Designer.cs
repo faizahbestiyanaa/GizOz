@@ -38,7 +38,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.cbShowPassword = new System.Windows.Forms.CheckBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.lblBackToLogin = new System.Windows.Forms.Label();
@@ -64,7 +64,6 @@
             this.tbUsername.Name = "tbUsername";
             this.tbUsername.Size = new System.Drawing.Size(309, 26);
             this.tbUsername.TabIndex = 0;
-            this.tbUsername.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // btnRegister
             // 
@@ -77,6 +76,7 @@
             this.btnRegister.TabIndex = 6;
             this.btnRegister.Text = "REGISTER";
             this.btnRegister.UseVisualStyleBackColor = false;
+            this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
             // 
             // btnClear
             // 
@@ -89,6 +89,7 @@
             this.btnClear.TabIndex = 7;
             this.btnClear.Text = "CLEAR";
             this.btnClear.UseVisualStyleBackColor = false;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // label1
             // 
@@ -160,16 +161,17 @@
             this.label9.TabIndex = 17;
             this.label9.Text = "Weight (kg)";
             // 
-            // checkBox1
+            // cbShowPassword
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(217, 371);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(148, 24);
-            this.checkBox1.TabIndex = 18;
-            this.checkBox1.Text = "Show Password";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.cbShowPassword.AutoSize = true;
+            this.cbShowPassword.Location = new System.Drawing.Point(217, 371);
+            this.cbShowPassword.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.cbShowPassword.Name = "cbShowPassword";
+            this.cbShowPassword.Size = new System.Drawing.Size(148, 24);
+            this.cbShowPassword.TabIndex = 18;
+            this.cbShowPassword.Text = "Show Password";
+            this.cbShowPassword.UseVisualStyleBackColor = true;
+            this.cbShowPassword.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // label2
             // 
@@ -215,6 +217,7 @@
             this.tbConfirmPassword.Name = "tbConfirmPassword";
             this.tbConfirmPassword.Size = new System.Drawing.Size(309, 26);
             this.tbConfirmPassword.TabIndex = 23;
+            this.tbConfirmPassword.UseSystemPasswordChar = true;
             // 
             // tbPassword
             // 
@@ -224,6 +227,7 @@
             this.tbPassword.Name = "tbPassword";
             this.tbPassword.Size = new System.Drawing.Size(307, 26);
             this.tbPassword.TabIndex = 24;
+            this.tbPassword.UseSystemPasswordChar = true;
             // 
             // tbHeight
             // 
@@ -339,7 +343,7 @@
             this.Controls.Add(this.lblBackToLogin);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.cbShowPassword);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
@@ -371,7 +375,7 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox cbShowPassword;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label lblBackToLogin;
