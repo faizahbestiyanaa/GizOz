@@ -11,10 +11,10 @@ namespace GizOzApp
         public string name { get; set; }
         public int age { get; set; }
         public string gender { get; set; }
-        public string profession { get; set; }
-        public double height { get; set; }
-        public double weight { get; set; }
-        public string allergy { get; set; }
+        protected string profession { get; set; }
+        protected double height { get; set; }
+        protected double weight { get; set; }
+        protected string allergy { get; set; }
 
         public RegularUser(string email, string password, bool loginStatus)
         {
