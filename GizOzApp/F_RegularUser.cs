@@ -49,7 +49,7 @@ namespace GizOzApp
 
         void Clear()
         {
-            tbUsername.Text = tbPassword.Text = tbConfirmPassword.Text = tbName.Text = tbAge.Text = tbHeight.Text = tbWeight.Text = "";
+            tbUsername.Text = tbPassword.Text = tbConfirmPassword.Text = tbName.Text = tbAge.Text = "";
         }
 
         private void btnRegister_Click(object sender, EventArgs e)
@@ -71,17 +71,14 @@ namespace GizOzApp
                     NpgsqlCommand command = new NpgsqlCommand();
                     command.Connection = conn;
                     conn.Open();
-                    command.CommandText = @"select * from st_insert(:_username, :_password, :_name, :_age, :_gender, :_profession, :_height, :_weight, :_allergy) " +
-                    "VALUES(@param1,@param2,@param3,@param4,@param5,@param6,@param7,@param8,@param9)";
+                    command.CommandText = @"select * from st_insert(:_username, :_password, :_name, :_age, :_gender, :_profession) " +
+                    "VALUES(@param1,@param2,@param3,@param4,@param5,@param6)";
                     command.Parameters.AddWithValue("@param1", tbUsername.Text);
                     command.Parameters.AddWithValue("@param2", tbPassword.Text);
                     command.Parameters.AddWithValue("@param3", tbName.Text);
                     command.Parameters.AddWithValue("@param4", tbAge.Text);
                     command.Parameters.AddWithValue("@param5", tbGender.Text);
                     command.Parameters.AddWithValue("@param6", tbProfession.Text);
-                    command.Parameters.AddWithValue("@param7", tbHeight.Text);
-                    command.Parameters.AddWithValue("@param8", tbWeight.Text);
-                    command.Parameters.AddWithValue("@param9", tbAllergy.Text);
 
                     command.ExecuteNonQueryAsync();
 
@@ -98,5 +95,9 @@ namespace GizOzApp
             }
         }
 
+        private void F_RegularUser_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

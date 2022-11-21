@@ -32,20 +32,16 @@
             this.btnRegister = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
             this.cbShowPassword = new System.Windows.Forms.CheckBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.lblBackToLogin = new System.Windows.Forms.Label();
             this.tbConfirmPassword = new System.Windows.Forms.TextBox();
             this.tbPassword = new System.Windows.Forms.TextBox();
-            this.tbHeight = new System.Windows.Forms.TextBox();
-            this.tbWeight = new System.Windows.Forms.TextBox();
             this.tbName = new System.Windows.Forms.TextBox();
             this.tbAge = new System.Windows.Forms.TextBox();
             this.tbProfession = new System.Windows.Forms.TextBox();
@@ -99,20 +95,10 @@
             this.label1.TabIndex = 8;
             this.label1.Text = "Username";
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(791, 223);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(119, 20);
-            this.label4.TabIndex = 11;
-            this.label4.Text = "Height (meters)";
-            // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(420, 223);
+            this.label5.Location = new System.Drawing.Point(420, 277);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(38, 20);
@@ -122,7 +108,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(420, 145);
+            this.label6.Location = new System.Drawing.Point(420, 199);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(51, 20);
@@ -148,16 +134,6 @@
             this.label8.Size = new System.Drawing.Size(78, 20);
             this.label8.TabIndex = 15;
             this.label8.Text = "Password";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(983, 223);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(90, 20);
-            this.label9.TabIndex = 17;
-            this.label9.Text = "Weight (kg)";
             // 
             // cbShowPassword
             // 
@@ -227,28 +203,10 @@
             this.tbPassword.TabIndex = 24;
             this.tbPassword.UseSystemPasswordChar = true;
             // 
-            // tbHeight
-            // 
-            this.tbHeight.BackColor = System.Drawing.Color.Snow;
-            this.tbHeight.Location = new System.Drawing.Point(795, 249);
-            this.tbHeight.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.tbHeight.Name = "tbHeight";
-            this.tbHeight.Size = new System.Drawing.Size(117, 26);
-            this.tbHeight.TabIndex = 27;
-            // 
-            // tbWeight
-            // 
-            this.tbWeight.BackColor = System.Drawing.Color.Snow;
-            this.tbWeight.Location = new System.Drawing.Point(989, 249);
-            this.tbWeight.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.tbWeight.Name = "tbWeight";
-            this.tbWeight.Size = new System.Drawing.Size(115, 26);
-            this.tbWeight.TabIndex = 28;
-            // 
             // tbName
             // 
             this.tbName.BackColor = System.Drawing.Color.Snow;
-            this.tbName.Location = new System.Drawing.Point(424, 169);
+            this.tbName.Location = new System.Drawing.Point(424, 223);
             this.tbName.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tbName.Name = "tbName";
             this.tbName.Size = new System.Drawing.Size(309, 26);
@@ -257,7 +215,7 @@
             // tbAge
             // 
             this.tbAge.BackColor = System.Drawing.Color.Snow;
-            this.tbAge.Location = new System.Drawing.Point(424, 249);
+            this.tbAge.Location = new System.Drawing.Point(424, 303);
             this.tbAge.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tbAge.Name = "tbAge";
             this.tbAge.Size = new System.Drawing.Size(307, 26);
@@ -266,7 +224,7 @@
             // tbProfession
             // 
             this.tbProfession.BackColor = System.Drawing.Color.Snow;
-            this.tbProfession.Location = new System.Drawing.Point(797, 169);
+            this.tbProfession.Location = new System.Drawing.Point(797, 303);
             this.tbProfession.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tbProfession.Name = "tbProfession";
             this.tbProfession.Size = new System.Drawing.Size(307, 26);
@@ -275,7 +233,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(793, 143);
+            this.label11.Location = new System.Drawing.Point(793, 277);
             this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(84, 20);
@@ -285,7 +243,7 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(419, 311);
+            this.label13.Location = new System.Drawing.Point(790, 199);
             this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(63, 20);
@@ -295,7 +253,7 @@
             // tbGender
             // 
             this.tbGender.BackColor = System.Drawing.Color.Snow;
-            this.tbGender.Location = new System.Drawing.Point(424, 335);
+            this.tbGender.Location = new System.Drawing.Point(795, 223);
             this.tbGender.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tbGender.Name = "tbGender";
             this.tbGender.Size = new System.Drawing.Size(309, 26);
@@ -313,20 +271,16 @@
             this.Controls.Add(this.tbGender);
             this.Controls.Add(this.tbAge);
             this.Controls.Add(this.tbName);
-            this.Controls.Add(this.tbWeight);
-            this.Controls.Add(this.tbHeight);
             this.Controls.Add(this.tbPassword);
             this.Controls.Add(this.tbConfirmPassword);
             this.Controls.Add(this.lblBackToLogin);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.cbShowPassword);
-            this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnRegister);
@@ -335,6 +289,7 @@
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "F_RegularUser";
             this.Text = "Register";
+            this.Load += new System.EventHandler(this.F_RegularUser_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -346,20 +301,16 @@
         private System.Windows.Forms.Button btnRegister;
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
         private System.Windows.Forms.CheckBox cbShowPassword;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label lblBackToLogin;
         private System.Windows.Forms.TextBox tbConfirmPassword;
         private System.Windows.Forms.TextBox tbPassword;
-        private System.Windows.Forms.TextBox tbHeight;
-        private System.Windows.Forms.TextBox tbWeight;
         private System.Windows.Forms.TextBox tbName;
         private System.Windows.Forms.TextBox tbAge;
         private System.Windows.Forms.TextBox tbProfession;

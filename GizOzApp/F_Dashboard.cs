@@ -44,11 +44,6 @@ namespace GizOzApp
             this.Hide();
         }
 
-        private void bt_editprofile_Click(object sender, EventArgs e)
-        {
-            
-        }
-
         private void bt_profile_Click_1(object sender, EventArgs e)
         {
             F_Profile profile = new F_Profile();

@@ -12,9 +12,7 @@ namespace GizOzApp
         public int age { get; set; }
         public string gender { get; set; }
         protected string profession { get; set; }
-        protected double height { get; set; }
-        protected double weight { get; set; }
-        protected string allergy { get; set; }
+
 
         public RegularUser(string email, string password, bool loginStatus)
         {

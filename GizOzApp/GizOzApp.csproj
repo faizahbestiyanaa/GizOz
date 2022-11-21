@@ -126,23 +126,29 @@
     <Compile Include="F_Profile_Edit.Designer.cs">
       <DependentUpon>F_Profile_Edit.cs</DependentUpon>
     </Compile>
+    <Compile Include="F_Recommendation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_Recommendation.Designer.cs">
+      <DependentUpon>F_Recommendation.cs</DependentUpon>
+    </Compile>
     <Compile Include="F_Recommendation_Low.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="F_Recommendation_Low.Designer.cs">
       <DependentUpon>F_Recommendation_Low.cs</DependentUpon>
     </Compile>
-    <Compile Include="F_Recommended_High.cs">
+    <Compile Include="F_Recommendation_High.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="F_Recommended_High.Designer.cs">
-      <DependentUpon>F_Recommended_High.cs</DependentUpon>
+    <Compile Include="F_Recommendation_High.Designer.cs">
+      <DependentUpon>F_Recommendation_High.cs</DependentUpon>
     </Compile>
-    <Compile Include="F_Recommended_Medium.cs">
+    <Compile Include="F_Recommendation_Medium.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="F_Recommended_Medium.Designer.cs">
-      <DependentUpon>F_Recommended_Medium.cs</DependentUpon>
+    <Compile Include="F_Recommendation_Medium.Designer.cs">
+      <DependentUpon>F_Recommendation_Medium.cs</DependentUpon>
     </Compile>
     <Compile Include="F_RegularUser.cs">
       <SubType>Form</SubType>
@@ -182,14 +188,17 @@
     <EmbeddedResource Include="F_Profile_Edit.resx">
       <DependentUpon>F_Profile_Edit.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="F_Recommendation.resx">
+      <DependentUpon>F_Recommendation.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="F_Recommendation_Low.resx">
       <DependentUpon>F_Recommendation_Low.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="F_Recommended_High.resx">
-      <DependentUpon>F_Recommended_High.cs</DependentUpon>
+    <EmbeddedResource Include="F_Recommendation_High.resx">
+      <DependentUpon>F_Recommendation_High.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="F_Recommended_Medium.resx">
-      <DependentUpon>F_Recommended_Medium.cs</DependentUpon>
+    <EmbeddedResource Include="F_Recommendation_Medium.resx">
+      <DependentUpon>F_Recommendation_Medium.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="F_RegularUser.resx">
       <DependentUpon>F_RegularUser.cs</DependentUpon>

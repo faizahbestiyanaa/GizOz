@@ -75,3 +75,6 @@ C:\Users\Vira Ayu Oktaviani\source\repos\GizOz\GizOzApp\bin\Debug\System.Text.Js
 C:\Users\Vira Ayu Oktaviani\source\repos\GizOz\GizOzApp\bin\Debug\System.Threading.Channels.xml
 C:\Users\Vira Ayu Oktaviani\source\repos\GizOz\GizOzApp\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\Vira Ayu Oktaviani\source\repos\GizOz\GizOzApp\bin\Debug\System.ValueTuple.xml
+C:\Users\Vira Ayu Oktaviani\Source\Repos\GizOz\GizOzApp\obj\Debug\GizOzApp.F_Recommendation_Low.resources
+C:\Users\Vira Ayu Oktaviani\Source\Repos\GizOz\GizOzApp\obj\Debug\GizOzApp.F_Recommendation_High.resources
+C:\Users\Vira Ayu Oktaviani\Source\Repos\GizOz\GizOzApp\obj\Debug\GizOzApp.F_Recommendation_Medium.resources

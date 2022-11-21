@@ -10,17 +10,24 @@ using System.Windows.Forms;
 
 namespace GizOzApp
 {
-    public partial class F_Recommendation_Low : Form
+    public partial class F_Recommendation_Medium : Form
     {
-        public F_Recommendation_Low()
+        public F_Recommendation_Medium()
         {
             InitializeComponent();
         }
 
-        private void bt_logout_Click(object sender, EventArgs e)
+        private void btnLow_Click(object sender, EventArgs e)
         {
-            F_Logout log = new F_Logout();
-            log.Show();
+            F_Recommendation_Low rec_low = new F_Recommendation_Low();
+            rec_low.Show();
+            this.Hide();
+        }
+
+        private void btnHigh_Click(object sender, EventArgs e)
+        {
+            F_Recommendation_High rec_high = new F_Recommendation_High();
+            rec_high.Show();
             this.Hide();
         }
 
@@ -38,23 +45,11 @@ namespace GizOzApp
             this.Hide();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void bt_logout_Click(object sender, EventArgs e)
         {
-            F_Recommendation_Medium rec_medium = new F_Recommendation_Medium();
-            rec_medium.Show();
+            F_Logout log = new F_Logout();
+            log.Show();
             this.Hide();
-        }
-
-        private void btnHigh_Click(object sender, EventArgs e)
-        {
-            F_Recommendation_High rec_high = new F_Recommendation_High();
-            rec_high.Show();
-            this.Hide();
-        }
-
-        private void F_Recommendation_Low_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -1,7 +1,7 @@
 ﻿
 namespace GizOzApp
 {
-    partial class F_Recommended_High
+    partial class F_Recommendation_High
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace GizOzApp
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(F_Recommended_High));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(F_Recommendation_High));
             this.panel4 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.btnMedium = new System.Windows.Forms.Button();
@@ -40,6 +40,24 @@ namespace GizOzApp
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.bt_dashboard = new System.Windows.Forms.Button();
             this.bt_profile = new System.Windows.Forms.Button();
@@ -53,6 +71,12 @@ namespace GizOzApp
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -91,6 +115,7 @@ namespace GizOzApp
             this.btnMedium.TabIndex = 22;
             this.btnMedium.Text = "Medium Calories";
             this.btnMedium.UseVisualStyleBackColor = false;
+            this.btnMedium.Click += new System.EventHandler(this.btnMedium_Click);
             // 
             // btnHigh
             // 
@@ -116,6 +141,7 @@ namespace GizOzApp
             this.btnLow.TabIndex = 20;
             this.btnLow.Text = "Low Calories";
             this.btnLow.UseVisualStyleBackColor = false;
+            this.btnLow.Click += new System.EventHandler(this.btnLow_Click);
             // 
             // panel1
             // 
@@ -170,6 +196,198 @@ namespace GizOzApp
             this.panel5.Size = new System.Drawing.Size(936, 100);
             this.panel5.TabIndex = 3;
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.label8.Location = new System.Drawing.Point(1052, 500);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(136, 84);
+            this.label8.TabIndex = 81;
+            this.label8.Text = "Calories : 664 kkal\r\nFat : 15 g\r\nCarbo : 70 g\r\nProtein : 70 g";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.label9.Location = new System.Drawing.Point(903, 437);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(135, 25);
+            this.label9.TabIndex = 79;
+            this.label9.Text = "Nasi Padang";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.label10.Location = new System.Drawing.Point(740, 500);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(136, 84);
+            this.label10.TabIndex = 78;
+            this.label10.Text = "Calories : 505 kkal\r\nFat : 34.2 g\r\nCarbo : 59.6 g\r\nProtein : 3.9 g";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.label11.Location = new System.Drawing.Point(581, 437);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(161, 25);
+            this.label11.TabIndex = 76;
+            this.label11.Text = "Dark Chocolate";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.label12.Location = new System.Drawing.Point(440, 500);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(136, 84);
+            this.label12.TabIndex = 75;
+            this.label12.Text = "Calories : 288 kkal\r\nFat : 19.54 g\r\nCarbo : 0 g\r\nProtein : 26.33 g";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.label13.Location = new System.Drawing.Point(320, 441);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(80, 25);
+            this.label13.TabIndex = 73;
+            this.label13.Text = "Daging";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.label6.Location = new System.Drawing.Point(1052, 272);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(136, 84);
+            this.label6.TabIndex = 72;
+            this.label6.Text = "Calories : 322 kkal\r\nFat : 29.47 g\r\nCarbo : 17.15 g\r\nProtein : 4.02 g";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.label7.Location = new System.Drawing.Point(933, 209);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(85, 25);
+            this.label7.TabIndex = 70;
+            this.label7.Text = "Alpukat";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.label4.Location = new System.Drawing.Point(740, 272);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(136, 84);
+            this.label4.TabIndex = 69;
+            this.label4.Text = "Calories : 333 kkal\r\nFat : 12.34 g\r\nCarbo : 41.7 g\r\nProtein : 12.47 g";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.label5.Location = new System.Drawing.Point(593, 209);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(132, 25);
+            this.label5.TabIndex = 67;
+            this.label5.Text = "Nasi Goreng";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.label2.Location = new System.Drawing.Point(440, 272);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(136, 84);
+            this.label2.TabIndex = 66;
+            this.label2.Text = "Calories : 204 kkal\r\nFat : 0.44 g\r\nCarbo : 44.08 g\r\nProtein : 4.2 g";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.label14.Location = new System.Drawing.Point(307, 213);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(110, 25);
+            this.label14.TabIndex = 64;
+            this.label14.Text = "Nasi Putih";
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
+            this.pictureBox7.Location = new System.Drawing.Point(896, 465);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 80;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
+            this.pictureBox8.Location = new System.Drawing.Point(586, 465);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox8.TabIndex = 77;
+            this.pictureBox8.TabStop = false;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
+            this.pictureBox9.Location = new System.Drawing.Point(284, 469);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox9.TabIndex = 74;
+            this.pictureBox9.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(896, 237);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 71;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(586, 237);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 68;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
+            this.pictureBox10.Location = new System.Drawing.Point(284, 241);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox10.TabIndex = 65;
+            this.pictureBox10.TabStop = false;
+            // 
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
@@ -194,6 +412,7 @@ namespace GizOzApp
             this.bt_dashboard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bt_dashboard.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.bt_dashboard.UseVisualStyleBackColor = true;
+            this.bt_dashboard.Click += new System.EventHandler(this.bt_dashboard_Click);
             // 
             // bt_profile
             // 
@@ -209,6 +428,7 @@ namespace GizOzApp
             this.bt_profile.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bt_profile.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.bt_profile.UseVisualStyleBackColor = true;
+            this.bt_profile.Click += new System.EventHandler(this.bt_profile_Click);
             // 
             // bt_logout
             // 
@@ -224,6 +444,7 @@ namespace GizOzApp
             this.bt_logout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bt_logout.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.bt_logout.UseVisualStyleBackColor = true;
+            this.bt_logout.Click += new System.EventHandler(this.bt_logout_Click);
             // 
             // bt_recommendation
             // 
@@ -231,7 +452,6 @@ namespace GizOzApp
             this.bt_recommendation.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.bt_recommendation.ForeColor = System.Drawing.Color.SaddleBrown;
             this.bt_recommendation.Image = ((System.Drawing.Image)(resources.GetObject("bt_recommendation.Image")));
-            this.bt_recommendation.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.bt_recommendation.Location = new System.Drawing.Point(0, 290);
             this.bt_recommendation.Name = "bt_recommendation";
             this.bt_recommendation.Size = new System.Drawing.Size(264, 82);
@@ -270,11 +490,29 @@ namespace GizOzApp
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
-            // F_Recommended_High
+            // F_Recommendation_High
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1200, 692);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.pictureBox7);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.pictureBox8);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.pictureBox9);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.pictureBox6);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.pictureBox10);
+            this.Controls.Add(this.label14);
             this.Controls.Add(this.btnMedium);
             this.Controls.Add(this.btnHigh);
             this.Controls.Add(this.btnLow);
@@ -282,7 +520,7 @@ namespace GizOzApp
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel4);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "F_Recommended_High";
+            this.Name = "F_Recommendation_High";
             this.Text = "F_Recommended_High";
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
@@ -291,11 +529,18 @@ namespace GizOzApp
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -318,5 +563,23 @@ namespace GizOzApp
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.PictureBox pictureBox10;
+        private System.Windows.Forms.Label label14;
     }
 }

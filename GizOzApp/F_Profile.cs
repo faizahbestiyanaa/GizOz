@@ -44,5 +44,10 @@ namespace GizOzApp
             editprof.Show();
             this.Hide();
         }
+
+        private void F_Profile_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
