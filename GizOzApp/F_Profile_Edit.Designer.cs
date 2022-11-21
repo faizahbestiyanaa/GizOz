@@ -66,7 +66,6 @@ namespace GizOzApp
             this.bt_dashboard = new System.Windows.Forms.Button();
             this.bt_profile = new System.Windows.Forms.Button();
             this.bt_logout = new System.Windows.Forms.Button();
-            this.bt_editprofile = new System.Windows.Forms.Button();
             this.bt_recommendation = new System.Windows.Forms.Button();
             this.panel7 = new System.Windows.Forms.Panel();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
@@ -460,7 +459,6 @@ namespace GizOzApp
             this.panel6.Controls.Add(this.bt_dashboard);
             this.panel6.Controls.Add(this.bt_profile);
             this.panel6.Controls.Add(this.bt_logout);
-            this.panel6.Controls.Add(this.bt_editprofile);
             this.panel6.Controls.Add(this.bt_recommendation);
             this.panel6.Controls.Add(this.panel7);
             this.panel6.Location = new System.Drawing.Point(0, 0);
@@ -486,18 +484,17 @@ namespace GizOzApp
             // 
             // bt_profile
             // 
+            this.bt_profile.BackColor = System.Drawing.Color.Linen;
             this.bt_profile.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.bt_profile.ForeColor = System.Drawing.Color.SaddleBrown;
             this.bt_profile.Image = global::GizOzApp.Properties.Resources.jhdhjfdhjfhjf;
-            this.bt_profile.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bt_profile.Location = new System.Drawing.Point(0, 213);
             this.bt_profile.Name = "bt_profile";
             this.bt_profile.Size = new System.Drawing.Size(264, 82);
             this.bt_profile.TabIndex = 11;
             this.bt_profile.Text = "Profile";
-            this.bt_profile.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bt_profile.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.bt_profile.UseVisualStyleBackColor = true;
+            this.bt_profile.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.bt_profile.UseVisualStyleBackColor = false;
             this.bt_profile.Click += new System.EventHandler(this.bt_profile_Click);
             // 
             // bt_logout
@@ -515,21 +512,6 @@ namespace GizOzApp
             this.bt_logout.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.bt_logout.UseVisualStyleBackColor = true;
             this.bt_logout.Click += new System.EventHandler(this.bt_logout_Click);
-            // 
-            // bt_editprofile
-            // 
-            this.bt_editprofile.BackColor = System.Drawing.Color.Linen;
-            this.bt_editprofile.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.bt_editprofile.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.bt_editprofile.Image = ((System.Drawing.Image)(resources.GetObject("bt_editprofile.Image")));
-            this.bt_editprofile.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.bt_editprofile.Location = new System.Drawing.Point(0, 369);
-            this.bt_editprofile.Name = "bt_editprofile";
-            this.bt_editprofile.Size = new System.Drawing.Size(264, 82);
-            this.bt_editprofile.TabIndex = 7;
-            this.bt_editprofile.Text = "Edit Profile";
-            this.bt_editprofile.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.bt_editprofile.UseVisualStyleBackColor = false;
             // 
             // bt_recommendation
             // 
@@ -765,7 +747,6 @@ namespace GizOzApp
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Button bt_logout;
-        private System.Windows.Forms.Button bt_editprofile;
         private System.Windows.Forms.Button bt_recommendation;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Panel panel8;

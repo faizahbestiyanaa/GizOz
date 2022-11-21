@@ -49,9 +49,7 @@
             this.tbName = new System.Windows.Forms.TextBox();
             this.tbAge = new System.Windows.Forms.TextBox();
             this.tbProfession = new System.Windows.Forms.TextBox();
-            this.tbAllergy = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.tbGender = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
@@ -104,7 +102,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(791, 309);
+            this.label4.Location = new System.Drawing.Point(791, 223);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(119, 20);
@@ -154,7 +152,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(983, 309);
+            this.label9.Location = new System.Drawing.Point(983, 223);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(90, 20);
@@ -232,7 +230,7 @@
             // tbHeight
             // 
             this.tbHeight.BackColor = System.Drawing.Color.Snow;
-            this.tbHeight.Location = new System.Drawing.Point(795, 335);
+            this.tbHeight.Location = new System.Drawing.Point(795, 249);
             this.tbHeight.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tbHeight.Name = "tbHeight";
             this.tbHeight.Size = new System.Drawing.Size(117, 26);
@@ -241,7 +239,7 @@
             // tbWeight
             // 
             this.tbWeight.BackColor = System.Drawing.Color.Snow;
-            this.tbWeight.Location = new System.Drawing.Point(989, 335);
+            this.tbWeight.Location = new System.Drawing.Point(989, 249);
             this.tbWeight.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tbWeight.Name = "tbWeight";
             this.tbWeight.Size = new System.Drawing.Size(115, 26);
@@ -274,15 +272,6 @@
             this.tbProfession.Size = new System.Drawing.Size(307, 26);
             this.tbProfession.TabIndex = 36;
             // 
-            // tbAllergy
-            // 
-            this.tbAllergy.BackColor = System.Drawing.Color.Snow;
-            this.tbAllergy.Location = new System.Drawing.Point(795, 255);
-            this.tbAllergy.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.tbAllergy.Name = "tbAllergy";
-            this.tbAllergy.Size = new System.Drawing.Size(309, 26);
-            this.tbAllergy.TabIndex = 35;
-            // 
             // label11
             // 
             this.label11.AutoSize = true;
@@ -292,16 +281,6 @@
             this.label11.Size = new System.Drawing.Size(84, 20);
             this.label11.TabIndex = 34;
             this.label11.Text = "Profession";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(793, 229);
-            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(56, 20);
-            this.label12.TabIndex = 33;
-            this.label12.Text = "Allergy";
             // 
             // label13
             // 
@@ -329,9 +308,7 @@
             this.BackColor = System.Drawing.Color.SeaShell;
             this.ClientSize = new System.Drawing.Size(1200, 692);
             this.Controls.Add(this.tbProfession);
-            this.Controls.Add(this.tbAllergy);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.label12);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.tbGender);
             this.Controls.Add(this.tbAge);
@@ -386,9 +363,7 @@
         private System.Windows.Forms.TextBox tbName;
         private System.Windows.Forms.TextBox tbAge;
         private System.Windows.Forms.TextBox tbProfession;
-        private System.Windows.Forms.TextBox tbAllergy;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.TextBox tbGender;
     }

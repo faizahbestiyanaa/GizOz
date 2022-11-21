@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace GizOzApp
 {
-    public partial class F_Recommendation : Form
+    public partial class F_Recommendation_Low : Form
     {
-        public F_Recommendation()
+        public F_Recommendation_Low()
         {
             InitializeComponent();
         }
@@ -36,6 +36,11 @@ namespace GizOzApp
             F_Profile profile = new F_Profile();
             profile.Show();
             this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -26,15 +26,8 @@ namespace GizOzApp
 
         private void bt_recommendation_Click(object sender, EventArgs e)
         {
-            F_Recommendation rec = new F_Recommendation();
+            F_Recommendation_Low rec = new F_Recommendation_Low();
             rec.Show();
-            this.Hide();
-        }
-
-        private void bt_editprofile_Click(object sender, EventArgs e)
-        {
-            F_Profile_Edit editprof = new F_Profile_Edit();
-            editprof.Show();
             this.Hide();
         }
 
@@ -47,7 +40,9 @@ namespace GizOzApp
 
         private void button6_Click(object sender, EventArgs e)
         {
-
+            F_Profile_Edit editprof = new F_Profile_Edit();
+            editprof.Show();
+            this.Hide();
         }
     }
 }

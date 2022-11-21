@@ -39,7 +39,7 @@ namespace GizOzApp
 
         private void bt_recommendation_Click(object sender, EventArgs e)
         {
-            F_Recommendation rec = new F_Recommendation();
+            F_Recommendation_Low rec = new F_Recommendation_Low();
             rec.Show();
             this.Hide();
         }
