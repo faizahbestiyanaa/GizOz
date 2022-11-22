@@ -14,7 +14,7 @@ namespace GizOzApp
         public NpgsqlConnection GetCon()
         {
             NpgsqlConnection Conn = new NpgsqlConnection();
-            Conn.ConnectionString = "Host=localhost;Port=5432;Username=GizOzGroup;Password=gizozpastibisa;Database=GizOz";
+            Conn.ConnectionString = "Host=localhost;Port=5432;Username=postgres;Password=hujanbadai;Database=gizoz";
             return Conn;
         }
     }

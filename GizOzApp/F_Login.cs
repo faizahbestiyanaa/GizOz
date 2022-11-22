@@ -25,7 +25,12 @@ namespace GizOzApp
             Environment.Exit(0);
         }
 
-        public static string uName { get; set; }
+        public static string uName;
+        public static string uname
+        {
+            get { return uName; }
+            set { uName = value; }
+        }
         public static string pass { get; set; }
         public static string userID;
 
@@ -36,52 +41,39 @@ namespace GizOzApp
             {
                 try
                 {
+                    NpgsqlConnection Conn = conn.GetCon();
+                    Conn.Open();
+                    string queryString = @"select * from st_login(:_username, :_password)";
+                    NpgsqlCommand command = new NpgsqlCommand(queryString, Conn);
 
-                    string queryString = @"select * from tb_users where username = '" + tbUsername.Text + "' AND password = '" + tbPassword.Text + "'";
-                    using (NpgsqlConnection Conn = conn.GetCon())
+                    command.Parameters.AddWithValue("_username", tbUsername.Text);
+                    command.Parameters.AddWithValue("_password", tbPassword.Text);
+
+                    int result = (int)command.ExecuteScalar();
+                    if (result == 1)
                     {
-                        NpgsqlCommand command = new NpgsqlCommand(queryString, Conn);
-                        Conn.Open();
-                        using (NpgsqlDataReader reader = command.ExecuteReader())
+                        uname = tbUsername.Text;
+                        this.Hide();
+                        F_Dashboard dash = new F_Dashboard();
+                        dash.Show();
+                        /*using (NpgsqlDataReader reader = command.ExecuteReader())
                         {
                             if (reader.Read())
                             {
                                 //MessageBox.Show(String.Format("{0}, {1}", reader[1], reader[2]));
-                                F_Login.uName = (reader[1]).ToString();
-                                F_Login.pass = (reader[2]).ToString();
-                                F_Login.userID = reader[0].ToString();
+                                F_Login.uname = reader[0].ToString();
+                                F_Login.pass = reader[0].ToString();
                                 this.Hide();
                                 F_Dashboard dash = new F_Dashboard();
                                 dash.Show();
-                            }
-                            else
-                            {
-                                MessageBox.Show("The Username or Password is Incorrect", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Stop);
-                                tbUsername.Focus();
-                            }
-
-                        }
+                                Conn.Close();
+                            }*/
                     }
-
-                    //string query = "SELECT * FROM UserData WHERE Username = '" + tbUsername.Text.Trim() + "' AND Password ='" + tbPassword.Text.Trim() + "'";
-
-                    //SqlDataAdapter adapter = new SqlDataAdapter(query, sqlCon);
-                    //DataTable UserData = new DataTable();
-
-                    //adapter.Fill(UserData);
-
-                    //if (UserData.Rows.Count > 0)
-                    //{
-                    //    //MessageBox.Show("Login Successful!");
-                    //    this.Hide();
-                    //    MainForm mf = new MainForm();
-                    //    mf.Show();
-                    //}
-                    //else
-                    //{
-                    //    MessageBox.Show("The Username or Password is Incorrect", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Stop);
-                    //    tbUsername.Focus();
-                    //}
+                    else
+                    {
+                        MessageBox.Show("The Username or Password is Incorrect", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                        tbUsername.Focus();
+                    }
                 }
                 catch (Exception ex)
                 {

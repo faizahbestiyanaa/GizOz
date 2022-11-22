@@ -8,36 +8,49 @@ namespace GizOzApp
 {
     class RegularUser : User
     {
-        public string name { get; set; }
-        public int age { get; set; }
-        public string gender { get; set; }
-        protected string profession { get; set; }
+        private string username;
+        private string name;
+        private int age;
+        private string gender;
+        private string profession;
 
 
-        public RegularUser(string email, string password, bool loginStatus)
+      
+
+        public string userName
         {
-            this.Email = email;
-            this.Password = password;
-            this.LoginStatus = loginStatus;
+            get { return username; }
+            set { username = value; }
+        }
+        public string Name
+        {
+            get { return name; }
+            set { name = value; }
+        }
+        public int Age
+        {
+            get { return age; }
+            set { age = value; }
+        }
+        public string Gender
+        {
+            get { return gender; }
+            set { gender = value; }
+        }
+        public string Profession
+        {
+            get { return profession; }
+            set { profession = value; }
         }
 
-        public void register()
+        public RegularUser( string username  /*string name, int age, string gender, string profession*/ )
         {
-
-        }
-        public void loginn()
-        {
-
-        }
-
-        public void updateProfile()
-        {
-
-        }
-
-        public void updateData()
-        {
-
+            userName = username;
+            /*Name = name;
+            Age = age;
+            Gender = gender;
+            Profession = profession;*/ 
+            
         }
     }
 }

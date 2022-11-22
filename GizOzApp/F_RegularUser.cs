@@ -18,7 +18,13 @@ namespace GizOzApp
             InitializeComponent();
         }
 
-        connection Conn = new connection();
+        private NpgsqlConnection conn;
+        public static string connectionString = "Host=localhost;Port=5432;Username=postgres;Password=hujanbadai;Database=gizoz";
+        private string sql = null;
+        public static NpgsqlCommand cmd;
+
+        public static string uname;
+        public string nameprof;
 
         private void label10_Click(object sender, EventArgs e)
         {
@@ -49,15 +55,13 @@ namespace GizOzApp
 
         void Clear()
         {
-            tbUsername.Text = tbPassword.Text = tbConfirmPassword.Text = tbName.Text = tbAge.Text = "";
+            tbUsername.Text = tbPassword.Text = tbConfirmPassword.Text = tbName.Text = tbAge.Text = cbGender.Text = tbProfession.Text = "";
         }
 
         private void btnRegister_Click(object sender, EventArgs e)
         {
             if (tbUsername.Text == "" || tbPassword.Text == "")
                 MessageBox.Show("Username or Password field is empty", "Registration Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            /*else if (tbName.Text == "" || tbAge.Text == "" ||tbGender.Text == ""|| tbProfession.Text == ""||tbAllergy.Text == ""|| tbHeight.Text == "" || tbWeight.Text == "")
-                MessageBox.Show("Please complete your data", "Registration Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);*/
             else if (tbPassword.Text != tbConfirmPassword.Text)
             {
                 MessageBox.Show("The Password does not match, please re-enter", "Registration Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -66,38 +70,35 @@ namespace GizOzApp
             }
             else
             {
-                using (NpgsqlConnection conn = Conn.GetCon())
+                try
                 {
-                    NpgsqlCommand command = new NpgsqlCommand();
-                    command.Connection = conn;
+                    conn = new NpgsqlConnection(connectionString);
                     conn.Open();
-                    command.CommandText = @"select * from st_insert(:_username, :_password, :_name, :_age, :_gender, :_profession) " +
-                    "VALUES(@param1,@param2,@param3,@param4,@param5,@param6)";
-                    command.Parameters.AddWithValue("@param1", tbUsername.Text);
-                    command.Parameters.AddWithValue("@param2", tbPassword.Text);
-                    command.Parameters.AddWithValue("@param3", tbName.Text);
-                    command.Parameters.AddWithValue("@param4", tbAge.Text);
-                    command.Parameters.AddWithValue("@param5", tbGender.Text);
-                    command.Parameters.AddWithValue("@param6", tbProfession.Text);
-
-                    command.ExecuteNonQueryAsync();
+                    sql = @"select * from st_insert(:_username, :_password, :_name, :_age, :_gender, :_profession)";
+                    cmd = new NpgsqlCommand(sql, conn);
+                    cmd.Parameters.AddWithValue("_username", tbUsername.Text);
+                    cmd.Parameters.AddWithValue("_password", tbPassword.Text);
+                    cmd.Parameters.AddWithValue("_name", tbName.Text);
+                    cmd.Parameters.AddWithValue("_age", int.Parse(tbAge.Text));
+                    cmd.Parameters.AddWithValue("_gender", cbGender.Text);
+                    cmd.Parameters.AddWithValue("_profession", tbProfession.Text);
 
 
-                    conn.Close();
                     Clear();
 
-                    //RUN coba
-                    //coba username sama name aja
+                    if ((int)cmd.ExecuteScalar() == 1)
+                    {
+                        MessageBox.Show("Your account has been successfully created!", "Registration Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
 
-                    MessageBox.Show("Your account has been successfully created!", "Registration Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("error:" + ex.Message, "Register failed!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    conn.Close();
                 }
             }
         }
 
-        private void F_RegularUser_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

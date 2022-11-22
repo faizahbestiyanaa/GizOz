@@ -18,7 +18,6 @@ C:\Users\Acer\source\repos\GizOz\GizOzApp\obj\Debug\GizOzApp.F_Profile.resources
 C:\Users\Acer\source\repos\GizOz\GizOzApp\obj\Debug\GizOzApp.F_Profile_Edit.resources
 C:\Users\Acer\source\repos\GizOz\GizOzApp\obj\Debug\GizOzApp.F_Recommendation.resources
 C:\Users\Acer\source\repos\GizOz\GizOzApp\obj\Debug\GizOzApp.F_RegularUser.resources
-C:\Users\Acer\source\repos\GizOz\GizOzApp\obj\Debug\GizOzApp.Resources.F_RegisterLogin.resources
 C:\Users\Acer\source\repos\GizOz\GizOzApp\obj\Debug\GizOzApp.csproj.GenerateResource.cache
 C:\Users\Acer\source\repos\GizOz\GizOzApp\obj\Debug\GizOzApp.exe
 C:\Users\Acer\source\repos\GizOz\GizOzApp\obj\Debug\GizOzApp.pdb
@@ -78,3 +77,36 @@ C:\Users\Vira Ayu Oktaviani\source\repos\GizOz\GizOzApp\bin\Debug\System.ValueTu
 C:\Users\Vira Ayu Oktaviani\Source\Repos\GizOz\GizOzApp\obj\Debug\GizOzApp.F_Recommendation_Low.resources
 C:\Users\Vira Ayu Oktaviani\Source\Repos\GizOz\GizOzApp\obj\Debug\GizOzApp.F_Recommendation_High.resources
 C:\Users\Vira Ayu Oktaviani\Source\Repos\GizOz\GizOzApp\obj\Debug\GizOzApp.F_Recommendation_Medium.resources
+C:\Users\Acer\Source\Repos\GizOz\GizOzApp\bin\Debug\Guna.UI2.dll
+C:\Users\Acer\Source\Repos\GizOz\GizOzApp\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Acer\Source\Repos\GizOz\GizOzApp\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\Acer\Source\Repos\GizOz\GizOzApp\bin\Debug\Npgsql.dll
+C:\Users\Acer\Source\Repos\GizOz\GizOzApp\bin\Debug\System.Buffers.dll
+C:\Users\Acer\Source\Repos\GizOz\GizOzApp\bin\Debug\System.Collections.Immutable.dll
+C:\Users\Acer\Source\Repos\GizOz\GizOzApp\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Acer\Source\Repos\GizOz\GizOzApp\bin\Debug\System.Memory.dll
+C:\Users\Acer\Source\Repos\GizOz\GizOzApp\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Acer\Source\Repos\GizOz\GizOzApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Acer\Source\Repos\GizOz\GizOzApp\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Acer\Source\Repos\GizOz\GizOzApp\bin\Debug\System.Text.Json.dll
+C:\Users\Acer\Source\Repos\GizOz\GizOzApp\bin\Debug\System.Threading.Channels.dll
+C:\Users\Acer\Source\Repos\GizOz\GizOzApp\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Acer\Source\Repos\GizOz\GizOzApp\bin\Debug\System.ValueTuple.dll
+C:\Users\Acer\Source\Repos\GizOz\GizOzApp\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Acer\Source\Repos\GizOz\GizOzApp\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\Acer\Source\Repos\GizOz\GizOzApp\bin\Debug\Npgsql.xml
+C:\Users\Acer\Source\Repos\GizOz\GizOzApp\bin\Debug\System.Buffers.xml
+C:\Users\Acer\Source\Repos\GizOz\GizOzApp\bin\Debug\System.Collections.Immutable.xml
+C:\Users\Acer\Source\Repos\GizOz\GizOzApp\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Acer\Source\Repos\GizOz\GizOzApp\bin\Debug\System.Memory.xml
+C:\Users\Acer\Source\Repos\GizOz\GizOzApp\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Acer\Source\Repos\GizOz\GizOzApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Acer\Source\Repos\GizOz\GizOzApp\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Acer\Source\Repos\GizOz\GizOzApp\bin\Debug\System.Text.Json.xml
+C:\Users\Acer\Source\Repos\GizOz\GizOzApp\bin\Debug\System.Threading.Channels.xml
+C:\Users\Acer\Source\Repos\GizOz\GizOzApp\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Acer\Source\Repos\GizOz\GizOzApp\bin\Debug\System.ValueTuple.xml
+C:\Users\Acer\Source\Repos\GizOz\GizOzApp\obj\Debug\GizOzApp.F_Recommendation_Low.resources
+C:\Users\Acer\Source\Repos\GizOz\GizOzApp\obj\Debug\GizOzApp.F_Recommendation_High.resources
+C:\Users\Acer\Source\Repos\GizOz\GizOzApp\obj\Debug\GizOzApp.F_Recommendation_Medium.resources
+C:\Users\Acer\Source\Repos\GizOz\GizOzApp\obj\Debug\GizOzApp.csproj.CopyComplete

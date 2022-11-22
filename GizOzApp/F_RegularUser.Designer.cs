@@ -47,7 +47,7 @@
             this.tbProfession = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.tbGender = new System.Windows.Forms.TextBox();
+            this.cbGender = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // tbUsername
@@ -250,14 +250,16 @@
             this.label13.TabIndex = 32;
             this.label13.Text = "Gender";
             // 
-            // tbGender
+            // cbGender
             // 
-            this.tbGender.BackColor = System.Drawing.Color.Snow;
-            this.tbGender.Location = new System.Drawing.Point(795, 223);
-            this.tbGender.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.tbGender.Name = "tbGender";
-            this.tbGender.Size = new System.Drawing.Size(309, 26);
-            this.tbGender.TabIndex = 31;
+            this.cbGender.FormattingEnabled = true;
+            this.cbGender.Items.AddRange(new object[] {
+            "Male",
+            "Female"});
+            this.cbGender.Location = new System.Drawing.Point(799, 226);
+            this.cbGender.Name = "cbGender";
+            this.cbGender.Size = new System.Drawing.Size(304, 28);
+            this.cbGender.TabIndex = 37;
             // 
             // F_RegularUser
             // 
@@ -265,10 +267,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SeaShell;
             this.ClientSize = new System.Drawing.Size(1200, 692);
+            this.Controls.Add(this.cbGender);
             this.Controls.Add(this.tbProfession);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.tbGender);
             this.Controls.Add(this.tbAge);
             this.Controls.Add(this.tbName);
             this.Controls.Add(this.tbPassword);
@@ -289,7 +291,6 @@
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "F_RegularUser";
             this.Text = "Register";
-            this.Load += new System.EventHandler(this.F_RegularUser_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -316,6 +317,6 @@
         private System.Windows.Forms.TextBox tbProfession;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox tbGender;
+        private System.Windows.Forms.ComboBox cbGender;
     }
 }

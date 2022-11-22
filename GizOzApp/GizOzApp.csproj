@@ -166,12 +166,6 @@
     </Compile>
     <Compile Include="Recomendation.cs" />
     <Compile Include="RegularUser.cs" />
-    <Compile Include="Resources\F_RegisterLogin.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Resources\F_RegisterLogin.Designer.cs">
-      <DependentUpon>F_RegisterLogin.cs</DependentUpon>
-    </Compile>
     <Compile Include="User.cs" />
     <EmbeddedResource Include="F_Dashboard.resx">
       <DependentUpon>F_Dashboard.cs</DependentUpon>
@@ -207,9 +201,6 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Resources\F_RegisterLogin.resx">
-      <DependentUpon>F_RegisterLogin.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

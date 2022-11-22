@@ -16,7 +16,7 @@ namespace GizOzApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new F_Recommendation());
+            Application.Run(new F_Login());
         }
     }
 }
