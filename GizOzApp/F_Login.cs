@@ -52,6 +52,7 @@ namespace GizOzApp
                     int result = (int)command.ExecuteScalar();
                     if (result == 1)
                     {
+                        MessageBox.Show("Login success!");
                         uname = tbUsername.Text;
                         this.Hide();
                         F_Dashboard dash = new F_Dashboard();

@@ -53,6 +53,7 @@ namespace GizOzApp
 
         private void bt_logout_Click(object sender, EventArgs e)
         {
+            this.Close();
             F_Logout log = new F_Logout();
             log.Show();
         }

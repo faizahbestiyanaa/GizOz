@@ -52,7 +52,6 @@ namespace GizOzApp
             this.tbNewName = new System.Windows.Forms.TextBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.btnChangePicture = new System.Windows.Forms.Button();
             this.cbNewGender = new System.Windows.Forms.ComboBox();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -289,18 +288,6 @@ namespace GizOzApp
             this.pictureBox2.TabIndex = 20;
             this.pictureBox2.TabStop = false;
             // 
-            // btnChangePicture
-            // 
-            this.btnChangePicture.BackColor = System.Drawing.Color.Peru;
-            this.btnChangePicture.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnChangePicture.ForeColor = System.Drawing.Color.PeachPuff;
-            this.btnChangePicture.Location = new System.Drawing.Point(78, 396);
-            this.btnChangePicture.Name = "btnChangePicture";
-            this.btnChangePicture.Size = new System.Drawing.Size(208, 49);
-            this.btnChangePicture.TabIndex = 47;
-            this.btnChangePicture.Text = "CHANGE PICTURE";
-            this.btnChangePicture.UseVisualStyleBackColor = false;
-            // 
             // cbNewGender
             // 
             this.cbNewGender.FormattingEnabled = true;
@@ -318,7 +305,6 @@ namespace GizOzApp
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1200, 692);
             this.Controls.Add(this.cbNewGender);
-            this.Controls.Add(this.btnChangePicture);
             this.Controls.Add(this.tbNewName);
             this.Controls.Add(this.tbNewAge);
             this.Controls.Add(this.tbNewProfession);
@@ -377,7 +363,6 @@ namespace GizOzApp
         private System.Windows.Forms.TextBox tbNewProfession;
         private System.Windows.Forms.TextBox tbNewAge;
         private System.Windows.Forms.TextBox tbNewName;
-        private System.Windows.Forms.Button btnChangePicture;
         private System.Windows.Forms.ComboBox cbNewGender;
     }
 }

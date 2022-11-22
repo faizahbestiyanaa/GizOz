@@ -84,7 +84,7 @@ namespace GizOzApp
             this.lblUser.AutoSize = true;
             this.lblUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUser.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.lblUser.Location = new System.Drawing.Point(67, 27);
+            this.lblUser.Location = new System.Drawing.Point(68, 25);
             this.lblUser.Name = "lblUser";
             this.lblUser.Size = new System.Drawing.Size(108, 25);
             this.lblUser.TabIndex = 0;

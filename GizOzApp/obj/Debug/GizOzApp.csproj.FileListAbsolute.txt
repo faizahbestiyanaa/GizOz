@@ -110,3 +110,7 @@ C:\Users\Acer\Source\Repos\GizOz\GizOzApp\obj\Debug\GizOzApp.F_Recommendation_Lo
 C:\Users\Acer\Source\Repos\GizOz\GizOzApp\obj\Debug\GizOzApp.F_Recommendation_High.resources
 C:\Users\Acer\Source\Repos\GizOz\GizOzApp\obj\Debug\GizOzApp.F_Recommendation_Medium.resources
 C:\Users\Acer\Source\Repos\GizOz\GizOzApp\obj\Debug\GizOzApp.csproj.CopyComplete
+C:\Users\Acer\Source\Repos\GizOz\GizOzApp\bin\Debug\GizOzApp.exe.manifest
+C:\Users\Acer\Source\Repos\GizOz\GizOzApp\bin\Debug\GizOzApp.application
+C:\Users\Acer\Source\Repos\GizOz\GizOzApp\obj\Debug\GizOzApp.exe.manifest
+C:\Users\Acer\Source\Repos\GizOz\GizOzApp\obj\Debug\GizOzApp.application
